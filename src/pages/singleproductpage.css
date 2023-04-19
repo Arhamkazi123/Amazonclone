@@ -1,0 +1,40 @@
+.backtrack-container{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#backtrack-element:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.single-product-container{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.image-container img{
+    height: 55vh;
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+    width: 30vw;
+}
+.info-container{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quantity-btns button{
+    padding: 5px;
+    height: 40px;
+    width: 30px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+}

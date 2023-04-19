@@ -1,0 +1,7 @@
+.main-category-container{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    z-index: 1;
+    
+}

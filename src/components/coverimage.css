@@ -1,0 +1,45 @@
+.coverimage{
+    width: 100vw;
+    height: 62vh;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    
+   
+}
+.coverimage img{
+    object-fit: cover;
+    height: 62vh;
+    width: 100vw ;
+    position: absolute;
+}
+.buttons{
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.buttons button{
+    margin: 10px;
+    padding: 5px;
+    height: 40px ;
+    width: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #FED815;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease in;
+}
+.main-cover-container{
+    height: 62vh;
+}
+

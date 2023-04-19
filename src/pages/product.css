@@ -1,0 +1,17 @@
+.main-product-container{
+    width: 100%;
+    max-height: 100vh;
+    background-color: #EBEDEF;
+}
+
+.main-product-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-container{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+   margin: 10px;
+   justify-content: space-around;
+   align-items: center;
+}

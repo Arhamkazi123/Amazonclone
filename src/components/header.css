@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background: #131A22;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+    height: 5rem;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 1px 1px;
+  
+   
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#right_elements:hover{
+    border: 1px solid white;
+}
+
+#search_field{
+    background-color: white;
+    
+
+}

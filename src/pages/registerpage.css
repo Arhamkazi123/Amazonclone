@@ -1,0 +1,49 @@
+.main-register-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.register-card{
+display: flex;
+flex-direction: column;
+height: 50%;
+width: 30%;
+justify-content: center;
+align-items:center;
+background-color: #a9cbf5;
+box-shadow: rgba(14, 13, 13, 0.24) 0px 3px 15px;
+border-radius: 5px;
+}
+.register-card input{
+    width: 90%;
+    height: 30px;
+    margin:5px;
+}
+
+.register-card button{
+    width: 90%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #0377FF;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.register-card button:hover{
+    transform: scale(0.97);
+}
+
+.register-card label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.register-card p{
+font-family: Arial, Helvetica, sans-serif;
+}
